@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+
+html body {
+  scroll-behavior: smooth;
+  transition: 2s;
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+li, a, button {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 2%;
+    text-transform: uppercase;
+}
+
+.headerback {
+    margin: 0;
+    padding: 5% 0 0 0;
+    background-color: rgb(1, 192, 144);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logosmall {
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.nav__links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(49, 172, 221);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #00a851;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #006d35;
+}
+
+.sidepicture {
+    width: 460px;
+    height: 280px;
+}
+
+.infoline {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    width: 80vw;
+    padding: 2% 6% 0% 6%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+    .infoline {
+      flex-direction: column;
+    }
+  }
+
+.info {
+    font-family: Montserrat, sans-serif;
+}
+
+.socialline {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    width: 80vw;
+    padding: 2% 6% 0% 6%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.socialpicture {
+    width: 300px;
+    height: 200px;
+}
+
+.footerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px 2% 1% 2%;
+    color: white;
+    bottom: 0px;
+    height: 60px;
+}
+
+.footerback {
+    margin: 0;
+    padding: 5% 0 0 0;
+    background-color: rgb(1, 192, 144);
+}
+
+@media screen and (max-width: 750px) {
+    button {
+        padding: 0px 0px;
+        background-color: #00a851;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3 ease 0s;
+        text-transform: uppercase;
+        opacity: 0;
+        width: 1px;
+    }
+
+    .logosmall {
+        width: 1px;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+}
