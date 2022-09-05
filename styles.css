@@ -91,7 +91,7 @@ button:hover {
 .infoline {
     display: flex;
     flex-direction: row;
-    height: 70vh;
+    height: 75vh;
     width: 80vw;
     padding: 2% 6% 0% 6%;
     justify-content: center;
@@ -102,10 +102,19 @@ button:hover {
 @media (max-width: 1000px) {
     .infoline {
       flex-direction: column;
-      width: 100vw;
+      width: 100%;
     }
     .info {
         font-size: 12px;
+        width: 100%;
+    }
+    .headerback {
+        margin: 0;
+        padding: 5% 0 0 0;
+        background-color: rgb(1, 192, 144);
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: 1px 1px 10px 1px;
+        width: 100vw;
     }
   }
 
