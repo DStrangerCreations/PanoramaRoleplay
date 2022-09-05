@@ -177,4 +177,11 @@ footer {
         align-items: center;
         opacity: 0;
     }
+    li, a, button {
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+    }
 }
