@@ -101,6 +101,7 @@ button:hover {
 @media (max-width: 1000px) {
     .infoline {
       flex-direction: column;
+      font-size: 12px;
     }
   }
 
@@ -195,5 +196,9 @@ footer {
     .sidepicture {
         width: 260px;
         height: 180px;
+    }
+    .socialpicture {
+        width: 150px;
+        height: 100px;
     }
 }
