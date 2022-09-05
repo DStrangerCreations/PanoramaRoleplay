@@ -200,7 +200,17 @@ footer {
         height: 180px;
     }
     .socialpicture {
-        width: 150px;
-        height: 100px;
+        width: 75px;
+        height: 50px;
+    }
+    .infoline {
+        display: flex;
+        flex-direction: row;
+        height: 90vh;
+        width: 80vw;
+        padding: 2% 6% 0% 6%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
 }
