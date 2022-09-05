@@ -8,7 +8,7 @@ html body {
   margin: 0;
   height: 100%;
   padding: 0;
-  background-color: rgb(231, 231, 231);
+  background-image: url('images/GTA5.jpg');
 }
 
 li, a, button {
