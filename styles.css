@@ -102,11 +102,9 @@ button:hover {
 @media (max-width: 1000px) {
     .infoline {
       flex-direction: column;
-      width: 100%;
     }
     .info {
         font-size: 12px;
-        width: 100%;
     }
     .headerback {
         margin: 0;
