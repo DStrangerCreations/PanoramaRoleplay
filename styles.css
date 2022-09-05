@@ -101,6 +101,7 @@ button:hover {
 @media (max-width: 1000px) {
     .infoline {
       flex-direction: column;
+      width: 100vw;
     }
     .info {
         font-size: 12px;
