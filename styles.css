@@ -114,7 +114,7 @@ button:hover {
         box-shadow: 1px 1px 10px 1px;
         width: 100%;
     }
-  }
+}
 
 .info {
     font-family: Montserrat, sans-serif;
@@ -205,8 +205,8 @@ footer {
         text-decoration: none;
     }
     .sidepicture {
-        width: 260px;
-        height: 180px;
+        width: 220px;
+        height: 110px;
     }
     .socialpicture {
         width: 100px;
