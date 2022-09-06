@@ -91,7 +91,7 @@ button:hover {
 .infoline {
     display: flex;
     flex-direction: row;
-    height: 75vh;
+    height: 70vh;
     width: 80vw;
     padding: 2% 6% 0% 6%;
     justify-content: center;
